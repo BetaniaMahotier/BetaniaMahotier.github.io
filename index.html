@@ -3,45 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio - Estudiante de Programación</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>BetiWish - Tu Lista de Regalos Perfecta</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-    <header>
-        <h1>Juan Pérez - Programador Junior</h1>
-        <p>Apasionado por las bases de datos y en busca de oportunidades laborales</p>
+    <!-- Encabezado -->
+    <header class="header">
+        <div class="logo">BetiWish</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#funcionalidades">Funcionalidades</a></li>
+                <li><a href="#beneficios">Beneficios</a></li>
+                <li><a href="#empresas">Empresas</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="cta-button">Descargar App</a>
     </header>
-    <nav>
-        <a href="#about">Sobre mí</a>
-        <a href="#projects">Proyectos</a>
-        <a href="#contact">Contacto</a>
-    </nav>
-    <div class="container">
-        <section id="about" class="about">
-            <h2>Sobre mí</h2>
-            <p>Hola, soy Juan Pérez, estudiante de programación con especialización en bases de datos. Mi experiencia incluye SQL, MySQL y PostgreSQL, y estoy emocionado de aplicar mis habilidades para resolver problemas reales en el ámbito laboral.</p>
-        </section>
-        <section id="projects" class="projects">
-            <h2>Proyectos destacados</h2>
-            <div>
-                <h3>Gestión de Inventarios</h3>
-                <p>Un sistema que optimiza el almacenamiento y el acceso a productos utilizando bases de datos relacionales.</p>
-                <img src="project1.jpg" alt="Proyecto Gestión de Inventarios">
-            </div>
-            <div>
-                <h3>Dashboard de Ventas</h3>
-                <p>Panel interactivo que analiza datos de ventas y genera reportes dinámicos.</p>
-                <img src="project2.jpg" alt="Dashboard de Ventas">
-            </div>
-        </section>
-        <section id="contact" class="contact">
-            <h2>Contacto</h2>
-            <p>Email: <a href="mailto:juanperez@example.com">juanperez@example.com</a></p>
-            <p>LinkedIn: <a href="https://linkedin.com/in/juanperez" target="_blank">linkedin.com/in/juanperez</a></p>
-        </section>
-    </div>
-    <footer>
-        <p>© 2024 Juan Pérez. Todos los derechos reservados.</p>
+
+    <!-- Sección de Introducción -->
+    <section id="inicio" class="intro">
+        <img src="assets/img/foto1.png" alt="">
+        <h1>¡Transforma la forma de dar regalos!</h1>
+        <p>BetiWish es la solución perfecta para crear, compartir y comprar listas de regalos personalizadas.</p>
+        <a href="#" class="cta-button">Empieza Ahora</a>
+    </section>
+
+    <!-- Sección de Funcionalidades -->
+    <section id="funcionalidades" class="features">
+        <h2>Características Principales</h2>
+        <div class="feature-item">
+            <h3>Personalización</h3>
+            <p>Crea listas con tus artículos favoritos.</p>
+        </div>
+        <div class="feature-item">
+            <h3>Compartir</h3>
+            <p>Envía tus listas a familiares y amigos.</p>
+        </div>
+        <div class="feature-item">
+            <h3>Notificaciones</h3>
+            <p>Recibe avisos cuando alguien compre un artículo de tu lista.</p>
+        </div>
+    </section>
+
+    <!-- Beneficios -->
+    <section id="beneficios" class="benefits">
+        <h2>Beneficios para los Usuarios</h2>
+        <ul>
+            <li>Organización: Mantén todas tus ideas de regalo en un solo lugar.</li>
+            <li>Ahorro de tiempo: ¡Adiós a las compras de último momento!</li>
+            <li>Conexión: Fortalece los lazos con tus seres queridos.</li>
+        </ul>
+    </section>
+
+    <!-- Pie de página -->
+    <footer class="footer">
+        <p>&copy; 2024 BetiWish. Todos los derechos reservados.</p>
+        <a href="https://www.betiwish.cl">www.BetiWish.cl</a>
     </footer>
 </body>
 </html>

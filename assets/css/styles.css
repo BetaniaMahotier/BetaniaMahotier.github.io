@@ -1,0 +1,124 @@
+/* Estilos Globales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f8f9fa; /* Suave gris pastel */
+    color: #5a5a5a; /* Gris oscuro */
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+h1, h2, h3 {
+    color: #4a4a4a; /* Gris más oscuro */
+}
+
+p {
+    color: #6c757d; /* Gris medio */
+}
+
+/* Encabezado */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #b4d8c0; /* Verde pastel */
+    color: #ffffff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.cta-button {
+    background-color: #f7c8e0; /* Rosa pastel */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: #eab5d2; /* Rosa más oscuro */
+}
+
+/* Sección de Introducción */
+.intro {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ffeecf; /* Amarillo pastel */
+}
+
+.intro h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #4a4a4a; /* Gris más oscuro */
+}
+
+.intro p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #6c757d;
+}
+
+/* Funcionalidades */
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #e0f7fa; /* Azul pastel */
+}
+
+.feature-item {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.feature-item h3 {
+    color: #4a4a4a;
+}
+
+.feature-item p {
+    color: #6c757d;
+}
+
+/* Beneficios */
+.benefits {
+    padding: 20px;
+    background-color: #fff0f5; /* Rosa claro pastel */
+}
+
+.benefits ul {
+    list-style: none;
+    padding: 0;
+}
+
+.benefits li {
+    margin-bottom: 10px;
+    color: #4a4a4a;
+}
+
+/* Pie de página */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #b4d8c0; /* Verde pastel */
+    color: #ffffff;
+}
